@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node_modules/.bin/mocha --recursive \"./{,!(node_modules)/**/}*.spec.js\" --exit",
     "start": "cd src && node index.js"
   },
   "repository": {
@@ -18,6 +18,8 @@
     "url": "https://github.com/Dhvanit41/Conference-Management-Tracker/issues"
   },
   "homepage": "https://github.com/Dhvanit41/Conference-Management-Tracker#readme",
-  "dependencies": {}
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
 }
-
