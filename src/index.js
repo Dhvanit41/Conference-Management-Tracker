@@ -9,6 +9,9 @@ const start = async () => {
         try {
             const trackManagementService = new TrackManagementService();
             trackManagementService.getValidConferenceList(content.split('\n'));
+            trackManagementService.computeTracks();
+            trackManagementService.displayTracks();
+
         } catch (error) {
             console.error(`${error.message}\n`);
         }

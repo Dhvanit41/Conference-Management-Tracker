@@ -29,6 +29,12 @@ class Time {
         }
         return this;
     }
+
+    // Formats a Time object to string like '11:00AM'
+    toString() {
+        return (this.hours > 9 && this.hours[0] !== '0' ? this.hours : `0${this.hours}`) + ':' +
+            (this.minutes <= 9 ? `0${this.minutes}` : this.minutes) + this.timeOfDay;
+    }
 }
 
 module.exports = Time;
