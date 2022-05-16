@@ -79,3 +79,4 @@ The basic steps I have used to track conferences are:
 1. Place your .txt files containing the input tests for the problem inside the test-files directory
 2. Run `npm install` in the root directory
 3. Run `npm start` to execute the application on the test scenarios you put in the test-cases directory and you will see the ouptput in console.
+4. Run `npm run test` to execute the unit test cases.
