@@ -1,0 +1,2 @@
+Rails Magic 60seconds
+Clojure Ate Scala (on my project) 45hours
