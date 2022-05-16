@@ -75,7 +75,7 @@ The basic steps I have used to track conferences are:
 3. Update the conference list to filter out the conferences that are already tracked.
 4. Repeat the process from 2nd step for the remaining conferences till all the conferences are tracked.
 
-# steps to use the project
+# Steps to use the project
 1. Place your .txt files containing the input tests for the problem inside the test-files directory
 2. Run `npm install` in the root directory
 3. Run `npm start` to execute the application on the test scenarios you put in the test-cases directory and you will see the ouptput in console.
